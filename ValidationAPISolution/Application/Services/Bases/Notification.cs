@@ -1,6 +1,8 @@
-﻿namespace Application.Notifications;
+﻿using Domains.Interfaces.Services.Bases;
 
-public class Notification
+namespace Application.Services.Bases;
+
+public class Notification : INotification
 {
     public string Code { get; set; }
     public string Description { get; set; }

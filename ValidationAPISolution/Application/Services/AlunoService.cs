@@ -1,11 +1,13 @@
-﻿using Domains.Entites;
+﻿using Application.Services.Bases;
+using Domains.Entites;
 using Domains.Interfaces.Services;
+using Domains.Interfaces.Services.Bases;
 
 namespace Application.Services;
 
 public class AlunoService : IAlunoServices
 {
-    public async Task<ServiceResponseBase> Create(Aluno aluno)
+    public async Task<IServiceResponseBase> Create(Aluno aluno)
     {
         var response = new ServiceResponseBase();
         response.AddNotification("CPF", "O CPF informado não corresponde a um CFP válido.");

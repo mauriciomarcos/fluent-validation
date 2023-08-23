@@ -1,9 +1,9 @@
-﻿using Application.Services;
-using Domains.Entites;
+﻿using Domains.Entites;
+using Domains.Interfaces.Services.Bases;
 
 namespace Domains.Interfaces.Services;
 
 public interface IAlunoServices
 {
-    Task<ServiceResponseBase> Create(Aluno aluno);
+    Task<IServiceResponseBase> Create(Aluno aluno);
 }
