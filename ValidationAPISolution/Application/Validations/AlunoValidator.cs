@@ -1,5 +1,4 @@
-﻿using Application.Notifications;
-using Domains.Entites;
+﻿using Domains.Entites;
 using FluentValidation;
 
 namespace Application.Validations;

@@ -1,5 +1,5 @@
-﻿using Domains.Entites;
-using Domains.Extensions;
+﻿using Application.Extension;
+using Domains.Entites;
 using Domains.Interfaces.Services;
 using FluentValidation;
 using Microsoft.AspNetCore.Mvc;
